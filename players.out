@@ -1,0 +1,29 @@
+AtlantisPlayerStatus
+Version: 328196
+TurnNumber: 2
+GameStatus: Running
+
+Faction: 1
+Name: The Guardsmen (1)
+Email: NoAddress
+Password: none
+LastOrders: 0
+FirstTurn: 0
+SendTimes: 1
+Template: long
+Faction: 2
+Name: Creatures (2)
+Email: NoAddress
+Password: none
+LastOrders: 0
+FirstTurn: 0
+SendTimes: 1
+Template: long
+Faction: 3
+Name: Royal Pinguins (3)
+Email: vitperov@gmail.com
+Password: qwe123
+LastOrders: 1
+FirstTurn: 1
+SendTimes: 1
+Template: long
