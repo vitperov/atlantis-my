@@ -1,54 +1,63 @@
-#atlantis 3 "qwe123"
+; February, Year 1
+#atlantis 3 ""
+
+unit 35
+move N SW
+
+unit 36
+form 1
+@;new 1
+name unit "Taxers1"
+avoid 1
+noaid 1
+buy 7 GBLN
+claim 132
+@study COMB
+end
+give new 1 190 SILV
+move NW
+claim 1500
+form 2
+@;new 2
+name unit "Combat2"
+buy 30 GBLN
+@study COMB
+end
+give new 2 1380 SILV
 
 unit 31
+form 1
+@;new 1
+name unit "Taxers2"
+avoid 1
+noaid 1
+buy 14 GBLN
+claim 67
+@study COMB
+end
+give new 1 479 SILV
 claim 3000
-GIVE NEW 1 229 SILV
-GIVE NEW 2 229 SILV
-GIVE NEW 3 844 SILV
-GIVE NEW 4 844 SILV
-GIVE NEW 5 89 SILV
-GIVE NEW 6 236 SILV
-TEACH NEW 3 new 4
-
-
-FORM 1
-  name unit "Scout1"
-  BUY 1 GBLN
-  move N
+give 37 250 SILV
+give 38 250 SILV
+study FIRE
+form 2
+@;new 2
+name unit "Wariors"
+buy 41 GBLN
+@study COMB
 end
+give new 2 2009 SILV
 
-FORM 2
-  name unit "Scout2"
-  BUY 1 GBLN
-  move NW
-end
+unit 37
+study FIRE
 
-FORM 3
-  name unit "Mage1"
-  avoid 1
-  noaid 1
-  BUY 1 LEAD
-  study FORC
-end
+unit 38
+study TACT
 
-FORM 4
-  name unit "Mage2"
-  avoid 1
-  noaid 1
-  BUY 1 LEAD
-  study FORC
-end
+unit 39
+@study ENTE
 
-FORM 5
-  name unit "Entertainers"
-  BUY 1 GBLN
-  @study ENTE
-end
-
-FORM 6
-  name unit "StoneMakers"
-  buy 4 GBLN
-  @study QUAR
-end
+unit 40
+@study QUAR
 
 #end
