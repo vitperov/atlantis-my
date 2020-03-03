@@ -3,54 +3,83 @@ Orders Template (Long Format):
 
 #atlantis 3 "qwe123"
 
-;*** plain (9,7) in Niroeck, contains Tubestint [town] ***
+;*** mountain (9,5) in Piane ***
 
 unit 35
-;Scout1 (35), revealing faction, won't cross water, goblin [GBLN], 190
+;Scout1 (35), revealing faction, won't cross water, goblin [GBLN], 180
+;  silver [SILV]. Weight: 5. Capacity: 0/0/7/0. Skills: none.
+MOVE SW
+
+;*** plain (7,7) in Niroeck ***
+
+unit 36
+;Scout2 (36), revealing faction, won't cross water, goblin [GBLN], 110
 ;  silver [SILV]. Weight: 5. Capacity: 0/0/7/0. Skills: none.
 
 ;*** desert (8,8) in Onciblen ***
 
-unit 36
-;Scout2 (36), revealing faction, won't cross water, goblin [GBLN], 190
-;  silver [SILV]. Weight: 5. Capacity: 0/0/7/0. Skills: none.
+unit 41
+;Taxers1 (41), avoiding, revealing faction, receiving no aid, won't
+;  cross water, 7 goblins [GBLN]. Weight: 35. Capacity: 0/0/49/0.
+;  Skills: combat [COMB] 1 (30).
+@;new 1
+@study COMB
+
+unit 42
+;Combat2 (42), revealing faction, won't cross water, 30 goblins [GBLN].
+;  Weight: 150. Capacity: 0/0/210/0. Skills: combat [COMB] 1 (30).
+@;new 2
+@study COMB
 
 ;*** desert (9,9) in Onciblen ***
 
 unit 31
 ;Pinguin King (31), revealing faction, won't cross water, leader
-;  [LEAD], 479 silver [SILV]. Weight: 10. Capacity: 0/0/15/0. Skills:
+;  [LEAD], 161 silver [SILV]. Weight: 10. Capacity: 0/0/15/0. Skills:
 ;  force [FORC] 1 (35), pattern [PATT] 1 (30), spirit [SPIR] 1 (30),
 ;  gate lore [GATE] 1 (30), combat [COMB] 3 (180), endurance [ENDU] 3
-;  (180). Can Study: fire [FIRE], earthquake [EQUA], force shield
-;  [FSHI], energy shield [ESHI], spirit shield [SSHI], magical healing
-;  [MHEA], farsight [FARS], mind reading [MIND], weather lore [WEAT],
-;  earth lore [EART], necromancy [NECR], demon lore [DEMO], illusion
-;  [ILLU], artifact lore [ARTI].
+;  (180), fire [FIRE] 1 (30). Can Study: earthquake [EQUA], force
+;  shield [FSHI], energy shield [ESHI], spirit shield [SSHI], magical
+;  healing [MHEA], farsight [FARS], mind reading [MIND], weather lore
+;  [WEAT], earth lore [EART], necromancy [NECR], demon lore [DEMO],
+;  illusion [ILLU], artifact lore [ARTI].
 
 unit 37
 ;Mage1 (37), avoiding, revealing faction, receiving no aid, won't cross
-;  water, leader [LEAD]. Weight: 10. Capacity: 0/0/15/0. Skills: force
-;  [FORC] 1 (60). Can Study: fire [FIRE], force shield [FSHI], energy
-;  shield [ESHI].
+;  water, leader [LEAD], 100 silver [SILV]. Weight: 10. Capacity:
+;  0/0/15/0. Skills: force [FORC] 1 (60), fire [FIRE] 1 (30). Can
+;  Study: force shield [FSHI], energy shield [ESHI].
 
 unit 38
 ;Mage2 (38), avoiding, revealing faction, receiving no aid, won't cross
 ;  water, leader [LEAD]. Weight: 10. Capacity: 0/0/15/0. Skills: force
-;  [FORC] 1 (60). Can Study: fire [FIRE], force shield [FSHI], energy
-;  shield [ESHI].
+;  [FORC] 1 (60), tactics [TACT] 1 (30). Can Study: fire [FIRE], force
+;  shield [FSHI], energy shield [ESHI].
 
 unit 39
 ;Entertainers (39), revealing faction, won't cross water, goblin
-;  [GBLN], 40 silver [SILV]. Weight: 5. Capacity: 0/0/7/0. Skills:
-;  entertainment [ENTE] 1 (30).
+;  [GBLN], 20 silver [SILV]. Weight: 5. Capacity: 0/0/7/0. Skills:
+;  entertainment [ENTE] 1 (60).
 @study ENTE
 
 unit 40
 ;StoneMakers (40), revealing faction, won't cross water, 4 goblins
-;  [GBLN], 40 silver [SILV]. Weight: 20. Capacity: 0/0/28/0. Skills:
-;  quarrying [QUAR] 1 (30).
+;  [GBLN]. Weight: 20. Capacity: 0/0/28/0. Skills: quarrying [QUAR] 1
+;  (60).
 @study QUAR
+
+unit 43
+;Taxers2 (43), avoiding, revealing faction, receiving no aid, won't
+;  cross water, 14 goblins [GBLN]. Weight: 70. Capacity: 0/0/98/0.
+;  Skills: combat [COMB] 1 (30).
+@;new 1
+@study COMB
+
+unit 44
+;Wariors (44), revealing faction, won't cross water, 41 goblins [GBLN].
+;  Weight: 205. Capacity: 0/0/287/0. Skills: combat [COMB] 1 (30).
+@;new 2
+@study COMB
 
 #end
 
