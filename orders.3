@@ -1,48 +1,59 @@
-; April, Year 1
+; June, Year 1
 #atlantis 3 "qwe123"
 
-unit 36
-form 1
-name unit "Taxers"
-buy 2 HELF
-claim 11
-@study "combat"
-end
-give new 1 113 SILV
-claim 10
-move SE
+unit 35
+autotax 1
+@ work
+tax
 
 unit 42
-study COMB
+attack 5
+tax
+work
 
 unit 31
-study FORC
-give 37 150 SILV
-claim 816
-give 38 150 SILV
-give 42 600 SILV
+claim 13
+attack 5
+behind 1
+combat FIRE
+work
+claim 11
 
 unit 37
-study FORC
+attack 5
+avoid 0
+behind 1
+noaid 0
+combat FIRE
+work
+claim 24
 
 unit 38
-study FIRE
+avoid 0
+behind 1
+claim 24
+noaid 0
+combat FIRE
+work
 
 unit 44
+attack 5
+tax
 work
 
 unit 41
-autotax 1
-@ work
-
-unit 39
-entertain
+tax
+give 36 14 SILV
+avoid 0
+noaid 0
 
 unit 40
-produce STON
+move N
+noaid 1
+avoid 1
 
 unit 43
-autotax 1
-@ work
+tax
+avoid 0
 
 #end
