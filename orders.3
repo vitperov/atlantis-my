@@ -2,22 +2,32 @@
 #atlantis 3 "qwe123"
 
 unit 35
-autotax 1
-@ work
 tax
+form 1
+name unit "New taxers 3"
+autotax 0
+avoid 1
+buy 1 HELF
+@study "combat"
+end
+give new 1 62 SILV
 
 unit 42
 attack 5
 tax
-work
+form 1
+name unit "Scout"
+avoid 1
+buy 1 CTAU
+move NW
+end
+give new 1 491 SILV
 
 unit 31
-claim 13
 attack 5
 behind 1
 combat FIRE
-work
-claim 11
+study FORC
 
 unit 37
 attack 5
@@ -25,35 +35,53 @@ avoid 0
 behind 1
 noaid 0
 combat FIRE
-work
-claim 24
+give 44 2 SWOR
+teach 31 38
 
 unit 38
 avoid 0
 behind 1
-claim 24
 noaid 0
 combat FIRE
-work
+study FORC
 
 unit 44
 attack 5
 tax
-work
+give 37 500 SILV
+give 38 500 SILV
+give 31 175 SILV
 
 unit 41
 tax
-give 36 14 SILV
 avoid 0
 noaid 0
+form 1
+name unit "new Taxers 2"
+autotax 0
+avoid 1
+buy 3 GBLN
+@study "combat"
+end
+give new 1 138 SILV
 
 unit 40
 move N
 noaid 1
 avoid 1
+give 43 8 STON
 
 unit 43
 tax
 avoid 0
+form 1
+name unit "new Taxers 2"
+autotax 0
+avoid 1
+buy 7 GBLN
+@study "combat"
+end
+give new 1 343 SILV
+give 40 244 SILV
 
 #end
