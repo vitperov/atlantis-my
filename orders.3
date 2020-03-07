@@ -1,87 +1,80 @@
-; June, Year 1
+; July, Year 1
 #atlantis 3 "qwe123"
 
-unit 35
-tax
+unit 39
 form 1
-name unit "New taxers 3"
-autotax 0
-avoid 1
-buy 1 HELF
+name unit "Taxers"
+avoid 0
+buy 4 GNOL
 @study "combat"
 end
-give new 1 62 SILV
+give new 1 300 SILV
+study ENTE
+
+unit 35
+form 1
+name unit "taxers 10"
+autotax 0
+buy 2 HELF
+claim 6
+study COMB
+end
+give new 1 98 SILV
+
+unit 36
+tax
 
 unit 42
-attack 5
-tax
-form 1
-name unit "Scout"
-avoid 1
-buy 1 CTAU
-move NW
-end
-give new 1 491 SILV
+guard 1
 
 unit 31
-attack 5
-behind 1
-combat FIRE
 study FORC
 
 unit 37
-attack 5
-avoid 0
-behind 1
-noaid 0
-combat FIRE
-give 44 2 SWOR
-teach 31 38
+study ESHI
 
 unit 38
-avoid 0
-behind 1
-noaid 0
-combat FIRE
-study FORC
+study ESHI
 
 unit 44
-attack 5
+give 31 150 SILV
 tax
-give 37 500 SILV
-give 38 500 SILV
-give 31 175 SILV
-
-unit 41
-tax
-avoid 0
-noaid 0
 form 1
-name unit "new Taxers 2"
-autotax 0
-avoid 1
-buy 3 GBLN
-@study "combat"
+name unit "town taxers"
+buy 6 CTAU
+study COMB
 end
-give new 1 138 SILV
+give new 1 860 SILV
 
 unit 40
-move N
-noaid 1
-avoid 1
-give 43 8 STON
+move NW
 
-unit 43
-tax
-avoid 0
+unit 41
 form 1
-name unit "new Taxers 2"
+name unit "Courier"
 autotax 0
 avoid 1
-buy 7 GBLN
-@study "combat"
+noaid 1
+buy 1 GBLN
+move NE
 end
-give new 1 343 SILV
-give 40 244 SILV
+give new 1 3 SWOR
+give new 1 338 SILV
+
+unit 47
+tax
+
+unit 43
+form 1
+name unit "Entertainers"
+autotax 0
+avoid 1
+buy 1 GBLN
+@study "entertainment"
+end
+give new 1 69 SILV
+
+unit 48
+give 43 7 GBLN
 
 #end
