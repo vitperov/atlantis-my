@@ -1,80 +1,71 @@
-; July, Year 1
+; August, Year 1
 #atlantis 3 "qwe123"
 
-unit 39
-form 1
-name unit "Taxers"
-avoid 0
-buy 4 GNOL
-@study "combat"
-end
-give new 1 300 SILV
-study ENTE
-
 unit 35
-form 1
-name unit "taxers 10"
-autotax 0
-buy 2 HELF
-claim 6
-study COMB
-end
-give new 1 98 SILV
+give 36 50 SILV
+give 36 10 SILV
 
 unit 36
+study COMB
+name unit "taxers11"
+
+unit 52
 tax
 
 unit 42
-guard 1
+attack 5
+tax
 
 unit 31
+attack 5
 study FORC
 
 unit 37
-study ESHI
+attack 5
+study FIRE
+give 44 2 SWOR
 
 unit 38
+attack 5
 study ESHI
 
 unit 44
-give 31 150 SILV
+attack 5
+give 37 150 SILV
+give 38 150 SILV
 tax
-form 1
-name unit "town taxers"
-buy 6 CTAU
-study COMB
-end
-give new 1 860 SILV
+give 53 500 SILV
 
-unit 40
+unit 39
+attack 5
+tax
+
+unit 53
 move NW
 
 unit 41
-form 1
-name unit "Courier"
-autotax 0
-avoid 1
-noaid 1
-buy 1 GBLN
-move NE
-end
-give new 1 3 SWOR
-give new 1 338 SILV
+give 47 60 SILV
 
 unit 47
-tax
-
-unit 43
-form 1
-name unit "Entertainers"
-autotax 0
-avoid 1
-buy 1 GBLN
-@study "entertainment"
-end
-give new 1 69 SILV
+study ENTE
 
 unit 48
-give 43 7 GBLN
+work
+tax
+
+unit 40
+give 43 8 STON
+
+unit 43
+give 54 50 SILV
+
+unit 49
+name unit "Courier-entertainer"
+
+unit 50
+produce GRAI
+
+unit 54
+@study "entertainment"
 
 #end
