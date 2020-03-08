@@ -1,71 +1,88 @@
-; August, Year 1
+; September, Year 1
 #atlantis 3 "qwe123"
 
+unit 53
+form 1
+name unit "Taxers Gnolls"
+hold 1
+buy 8 GNOL
+@study "combat"
+end
+give new 1 504 SILV
+study ENTE
+
 unit 35
-give 36 50 SILV
-give 36 10 SILV
+give new 1 80 SILV
+give 52 2 HELF
 
 unit 36
-study COMB
-name unit "taxers11"
+give new 1 40 SILV
+give 52 1 HELF
 
 unit 52
 tax
+form 1
+name unit "Taxers12"
+buy 3 HELF
+study COMB
+end
+give new 1 36 SILV
 
 unit 42
-attack 5
-tax
+guard 1
 
 unit 31
-attack 5
-study FORC
 
 unit 37
-attack 5
 study FIRE
-give 44 2 SWOR
 
 unit 38
-attack 5
-study ESHI
+study FORC
 
 unit 44
-attack 5
-give 37 150 SILV
-give 38 150 SILV
 tax
-give 53 500 SILV
+give 39 2 SWOR
+form 1
+name unit "NewTaxers3"
+buy 20 CTAU
+@study "combat"
+end
+give new 1 1920 SILV
 
 unit 39
-attack 5
 tax
-
-unit 53
-move NW
+give 37 146 SILV
+give 38 146 SILV
+give 31 32 SILV
 
 unit 41
-give 47 60 SILV
+give 47 16 SILV
 
 unit 47
 study ENTE
 
 unit 48
-work
-tax
+study COMB
 
 unit 40
-give 43 8 STON
+produce STON
+consume faction
 
 unit 43
-give 54 50 SILV
+consume faction
+give 40 40 SILV
+give 50 50 SILV
+give 54 10 SILV
+give 49 52 SILV
 
 unit 49
-name unit "Courier-entertainer"
+study ENTE
 
 unit 50
+consume unit
 produce GRAI
 
 unit 54
-@study "entertainment"
+study ENTE
 
 #end
