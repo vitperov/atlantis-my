@@ -1,88 +1,109 @@
-; September, Year 1
+; October, Year 1
 #atlantis 3 "qwe123"
 
 unit 53
+give new 1 63 SILV
+give 5 27 SILV
+entertain
+
+unit 5
+tax
 form 1
-name unit "Taxers Gnolls"
-hold 1
-buy 8 GNOL
+name unit "Taxers Gnolls2"
+avoid 0
+hold 0
+noaid 0
+buy 1 GNOL
 @study "combat"
 end
-give new 1 504 SILV
-study ENTE
-
-unit 35
-give new 1 80 SILV
-give 52 2 HELF
-
-unit 36
-give new 1 40 SILV
-give 52 1 HELF
 
 unit 52
 tax
 form 1
-name unit "Taxers12"
+name unit "Taxers13"
 buy 3 HELF
-study COMB
-end
-give new 1 36 SILV
-
-unit 42
-guard 1
-
-unit 31
-
-unit 37
-study FIRE
-
-unit 38
-study FORC
-
-unit 44
-tax
-give 39 2 SWOR
-form 1
-name unit "NewTaxers3"
-buy 20 CTAU
 @study "combat"
 end
-give new 1 1920 SILV
+give new 1 186 SILV
+
+unit 51
+tax
+
+unit 42
+give 44 1 GBLN
+give 37 47 SILV
+
+unit 31
+study FIRE
+
+unit 37
+teach 31 38
+
+unit 38
+study FIRE
+
+unit 44
+guard 1
+tax
+form 1
+name unit "NewTaxers4"
+buy 15 CTAU
+@study "combat"
+end
+give new 1 1440 SILV
 
 unit 39
+give 37 103 SILV
+give 31 100 SILV
+give 38 313 SILV
+give 55 6 SWOR
+give 55 10 CTAU
+
+unit 55
 tax
-give 37 146 SILV
-give 38 146 SILV
-give 31 32 SILV
 
 unit 41
-give 47 16 SILV
+give new 1 252 SILV
+give 48 2 GBLN
+give 48 1 SWOR
 
 unit 47
-study ENTE
+entertain
 
 unit 48
-study COMB
+tax
+form 1
+name unit "Taxers4"
+buy 8 GBLN
+@study "combat"
+end
+give new 1 116 SILV
 
 unit 40
 produce STON
-consume faction
 
 unit 43
-consume faction
-give 40 40 SILV
-give 50 50 SILV
-give 54 10 SILV
-give 49 52 SILV
+tax
+form 1
+name unit "Taxers3"
+autotax 0
+avoid 1
+hold 1
+noaid 0
+buy 8 GBLN
+@study "combat"
+end
+give new 1 392 SILV
+give 49 767 SILV
+give 49 2 SWOR
 
 unit 49
-study ENTE
+move N
 
 unit 50
-consume unit
-produce GRAI
+buy 1 GBLN
 
 unit 54
-study ENTE
+entertain
 
 #end
