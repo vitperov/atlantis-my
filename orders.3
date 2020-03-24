@@ -1,166 +1,190 @@
-; January, Year 2
+; February, Year 2
 #atlantis 3 "qwe123"
 
 unit 53
-study ENTE
+@entertain
 
 unit 5
 @tax
 form 1
-name unit "Taxers4"
-avoid 0
-hold 0
+name unit "Farmers"
+behind 1
 noaid 0
-buy 8 GNOL
-study COMB
+buy 12 GNOL
+study FARM
 end
-give new 1 504 SILV
+give new 1 756 SILV
 
-unit 35
-give 5 6 GNOL
+unit 39
+give 5 8 GNOL
 
 unit 52
-work
+study COMB
 
 unit 36
-tax
+give 52 270 SILV
+@tax
 
 unit 31
-study MIND
-cast fars region 12 6
+cast FARS region 12 12
+study ARTI
 
 unit 37
 cast EART
-teach 38
+study BIRD
 
 unit 38
 study PATT
 
 unit 44
 @tax
-give 31 100 SILV
-give 37 150 SILV
-give 38 150 SILV
-give 56 100 SILV
-give 59 760 silver
-give 59 300 SILV
 form 1
-name unit "Taxers7"
+name unit "Builders2"
 guard 0
-buy 2 CTAU
-study COMB
-end
-give new 1 192 SILV
-give 65 30 SILV
-
-unit 55
-@tax
-name unit "Ken-taxers"
-give 60 180 SILV
-form 2
-name unit "Farmers2"
 avoid 1
 behind 1
 hold 1
-buy 24 CTAU
+buy 3 CTAU
+study BUIL
+end
+give new 1 303 SILV
+give 58 705 silver
+give 60 200 SILV
+give 56 100 SILV
+give 31 150 SILV
+give 38 150 SILV
+give 37 50 SILV
+give 65 160 SILV
+
+unit 55
+@tax
+form 2
+name unit "Farmers3"
+avoid 1
+behind 1
+hold 1
+buy 18 CTAU
 study FARM
 end
-give new 2 2304 SILV
+give new 2 1818 SILV
+form 3
+name unit "Taxers8"
+buy 10 CTAU
+claim 8
+study COMB
+end
+give new 3 1002 SILV
 
 unit 49
 @entertain
-give 31 50 SILV
 
 unit 60
 @produce "livestock"
 sell all LIVE
 
-unit 51
-give 55 3 CTAU
-
 unit 56
 study ENTE
 
-unit 65
-build "Fort"
+unit 41
+give 55 2 CTAU
 
-unit 66
-give 60 6 CTAU
+unit 42
+give 60 24 CTAU
 
-unit 59
-give 65 2 STON
-buy 10 CTAU
+unit 58
+give 65 4 STON
+buy 5 CTAU
 move S
+
+unit 65
+build
 
 unit 47
 @entertain
+give new 1 14 SILV
 
 unit 48
 @tax
-name unit "Taxers"
 form 1
+name unit "Miners"
 avoid 1
 behind 1
 hold 1
 buy 6 GBLN
-study QUAR
-name unit "Stone makers"
+study MINI
 end
-give new 1 276 SILV
+give new 1 262 SILV
+consume unit
 
 unit 62
 @produce "livestock"
-consume unit
+@give 57 2 "livestock"
+give 48 4 LIVE
 
-unit 67
-give 62 6 GBLN
+unit 57
+@produce "stone"
+consume unit
 
 unit 40
 @produce "stone"
-give 58 4 STON
+give 59 6 STON
+give 59 1 STON
 
 unit 43
 @tax
+@give 50 90 "silver"
 form 1
-name unit "Miners2"
+name unit "Camel2"
 autotax 0
 avoid 1
 behind 1
 hold 1
 noaid 0
 buy 6 GBLN
-study MINI
+study HORS
 end
-give new 1 265 SILV
-give 40 8 STON
+give new 1 294 SILV
+form 2
+name unit "SwordMakers2"
+autotax 0
+avoid 1
+behind 1
+hold 1
+noaid 0
+buy 3 GBLN
+study WEAP
+end
+give new 2 147 SILV
+give 59 560 SILV
 
 unit 50
 @produce "grain"
-@give 40 2 "grain"
-give 63 2 GRAI
 give 68 1 GRAI
-give 69 1 GRAI
+@give 40 1 "grain"
+@give 63 4 "grain"
+@give 69 1 "grain"
+@give 40 2 "grain"
+consume
 
 unit 54
 @entertain
-give new 1 29 SILV
+give 50 30 SILV
 
 unit 63
 @produce "iron"
-give 68 3 IRON
+give 68 6 IRON
 
 unit 68
-produce HAMM
-consume unit
+produce SWOR
 
 unit 69
 @produce "camels"
-consume unit
+give 59 3 CAME
 
-unit 70
-give 63 3 GBLN
+unit 61
+give 63 6 GBLN
 
-unit 58
+unit 59
 move N
 
 #end
